@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:horizontalGap="0.909%p"
-    android:keyHeight="43dp"
     android:keyWidth="9.0001%p"
+    android:keyHeight="43dp"
     android:verticalGap="5dp">
     <Row android:rowEdgeFlags="">
         <Key
@@ -61,11 +61,11 @@
             android:codes="85"
             android:keyLabel="U" />
         <!--<Key-->
-            <!--android:codes="73"-->
-            <!--android:keyLabel="I" />-->
+        <!--android:codes="73"-->
+        <!--android:keyLabel="I" />-->
         <!--<Key-->
-            <!--android:codes="79"-->
-            <!--android:keyLabel="O" />-->
+        <!--android:codes="79"-->
+        <!--android:keyLabel="O" />-->
         <Key
             android:codes="80"
             android:keyLabel="P" />
@@ -108,7 +108,7 @@
             android:codes="67"
             android:keyLabel="C" />
     </Row>
-    <Row >
+    <Row>
         <Key
             android:codes="86"
             android:keyLabel="V" />
@@ -132,9 +132,11 @@
             android:keyLabel="学" />
         <Key
             android:codes="-3"
-            android:horizontalGap="2%p"
+            android:keyIcon="@drawable/sym_keyboard_delete" />
+        <Key
+            android:codes="-1"
+            android:keyWidth="20%p"
             android:keyEdgeFlags="right"
-            android:keyIcon="@drawable/sym_keyboard_delete"
-            android:keyWidth="18.9092%p" />
+            android:keyLabel="关闭" />
     </Row>
 </Keyboard>
