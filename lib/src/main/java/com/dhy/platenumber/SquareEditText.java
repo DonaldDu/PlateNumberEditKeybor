@@ -21,7 +21,6 @@ public class SquareEditText extends android.support.v7.widget.AppCompatEditText 
         setMeasuredDimension(getDefaultSize(0, widthMeasureSpec), getDefaultSize(0, heightMeasureSpec));
         // Children are just made to fill our space.
         int childWidthSize = getMeasuredWidth();
-        //高度和宽度一样
         heightMeasureSpec = widthMeasureSpec = MeasureSpec.makeMeasureSpec(childWidthSize, MeasureSpec.EXACTLY);
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
